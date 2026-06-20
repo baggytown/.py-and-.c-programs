@@ -15,3 +15,12 @@ def sum(x,y,z):
     l=[x,y,z]
     print(x+y+z)
 sum(x=int(input("Enter a number")),y=int(input("Enter a number")),z=int(input("Enter a number")))
+#Create a function using *args to find the average of numbers.
+def args(*args):
+    if not args:
+        return 0
+    return sum(args)/len(args)
+print(args(10,29,17,246))
+#Write a lambda function to cube a number.
+c = lambda x: x ** 3
+print(c)
