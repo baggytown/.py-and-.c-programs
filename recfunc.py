@@ -33,6 +33,27 @@ def power(a, b):
         return 1
     return a * power(a, b - 1)
 power(a=int(input('Enter a number')),b=int(input('Enter a number')))
+#Implement a recursive binary search.
+def binary(arr, tar, low, high):
+    if low > high:
+        return -1
+        
+    mid = (low + high) // 2
+    
+    if arr[mid] == tar:
+        return mid
+        
+    elif arr[mid] > tar:
+        return binary(arr, tar, low, mid - 1)
+        
+    else:
+        return binary(arr, tar, mid + 1, high)
+#Create a recursive function to find the greatest common divisor (GCD).
+def gcd(a, b):
+    if b == 0:
+        return a
+    return gcd(b, a % b)
+print(gcd(48, 18))
 
 
     
