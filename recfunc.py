@@ -28,12 +28,11 @@ def rev(s):
     return rev(s[1:]) + s[0]
 print(rev("hello")) 
 #Create a recursive function to compute the power of a number (a^b).
-def power(r,l):
-    r = f'{r}'
-    if r == 0:
-        return 0
-    for i in range(r-1):
-        r=f'{r+1}'
-    for i in range(l-1):
-        l=f'{l+1}'
+def power(a, b):
+    if b == 0:
+        return 1
+    return a * power(a, b - 1)
+power(a=int(input('Enter a number')),b=int(input('Enter a number')))
+
+
     
