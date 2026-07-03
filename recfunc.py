@@ -31,7 +31,7 @@ print(rev("hello"))
 def power(a, b):
     if b == 0:
         return 1
-    return a * power(a, b - 1)
+    print(a * power(a, b ))
 power(a=int(input('Enter a number')),b=int(input('Enter a number')))
 #Implement a recursive binary search.
 def binary(arr, tar, low, high):
