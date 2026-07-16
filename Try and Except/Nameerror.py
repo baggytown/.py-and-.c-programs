@@ -1,3 +1,4 @@
+o = 0
 try:
     print(o+2)
 except NameError:
