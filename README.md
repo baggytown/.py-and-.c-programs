@@ -1,2 +1,2 @@
-# c-programs
-contains basic c programs and python projects
+# PYHTMLCSS
+contains basic c programs and python projects + HTML + CSS + JAVASCRIPT

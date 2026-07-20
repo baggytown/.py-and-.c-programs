@@ -1,6 +1,5 @@
-o = 0
 try:
-    print(o+2)
+    print(o+2) #type:ignore
 except NameError:
     print("Please define a varible")
 finally:
