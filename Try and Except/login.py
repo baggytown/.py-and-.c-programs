@@ -41,10 +41,10 @@ try:
                 cop=p
             if end == 2:
                 break
-except ZeroDivisionError:
-    print("")
+except ValueError:
+    print("Pls enter the correct data type")
 finally:
-    print("")
+    print("Thank you")
 
     
 
