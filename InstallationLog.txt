@@ -1,0 +1,14 @@
+************************************* Invoked: Thu Aug 13 15:38:06 2026
+[0] Arguments: C:\Users\aashi\AppData\Local\Temp\WinGet\MSYS2.MSYS2.20260611\msys2-x86_64-20260611.exe, install, --confirm-command, --root, C:\msys64
+[11] Operations sanity check succeeded.
+[36] Using metadata cache from "C:/Users/aashi/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[36] Found 0 cached items.
+[53] Loaded control script ":/metadata/installer-config/control_js"
+[54] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.
+************************************* Invoked: Thu Aug 13 15:38:17 2026
+[0] Arguments: C:\Users\aashi\AppData\Local\Temp\WinGet\MSYS2.MSYS2.20260611\msys2-x86_64-20260611.exe, install, --confirm-command, --root, C:\msys64
+[8] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/aashi/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[15] Loaded control script ":/metadata/installer-config/control_js"
+[15] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.

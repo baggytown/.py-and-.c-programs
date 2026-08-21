@@ -12,3 +12,8 @@ hr {
     width: 95%;
     margin: auto;
 }
+img {
+    border-color: crimson;
+    border-radius: 40 rem;
+    border-style: double;
+}
